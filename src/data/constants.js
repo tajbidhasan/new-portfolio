@@ -8,7 +8,7 @@ export const Bio = {
   ],
   description:
     "I am an enthusiastic and adaptable person, always keen to embrace new opportunities. Driven by a strong desire to learn, I am committed to producing top-notch outcomes. Possessing a proactive outlook and a mindset geared towards development, I am prepared to make significant contributions and accomplish impressive achievements.",
-  github: "https://github.com/tajbidhasan",
+  github: "b",
   resume:
     "https://drive.google.com/file/d/1xD2d3LI3Nx73dy5o8cQn997U5dQISYQQ/view?usp=share_link",
   linkedin: "https://www.linkedin.com/in/tajbid-hasan-a01936229/",
