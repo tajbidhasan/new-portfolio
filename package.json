@@ -1,7 +1,7 @@
 {
   "name": "tajbid-hasan-portfolio",
   "version": "0.1.0",
-  "homepage": "www.tajbidhasan.com",
+  "homepage": "http://www.tajbidhasan.com",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
