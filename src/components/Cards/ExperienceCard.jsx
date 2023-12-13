@@ -151,7 +151,22 @@ const ExperienceCard = ({ experience }) => {
                 <Image src={experience.img} />
                 <Body>
                     <Role>{experience.role}</Role>
-                    <Company>{experience.company}</Company>
+                    <Company>
+                        <a href={experience.companyUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{
+                                color: '#b20afa', // Change to your desired color
+                                textDecoration: 'none', // Removes underline
+                                fontWeight: 'bold', // Makes the text bold
+                                // Add more styling as needed
+                            }}
+                            onMouseOver={(e) => e.target.style.textDecoration = 'underline'}
+                            onMouseOut={(e) => e.target.style.textDecoration = 'none'}
+                        >
+                            {experience.company}
+                        </a>
+                    </Company>
                     <Date>{experience.date}</Date>
                 </Body>
             </Top>
